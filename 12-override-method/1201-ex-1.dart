@@ -3,7 +3,7 @@
 void main()
 {
   var obj=B();
-  obj.dispaly();
+  obj.display();
 }
 class A
 {
@@ -15,9 +15,14 @@ class A
 }
 class B extends A
 {
+  // @override
+  // void dispaly()
+  // {
+  //   print("Gyanguru");
+  //   super.display();
+  // }
   @override
-  void dispaly()
-  {
+  void display() {
     print("Gyanguru");
     super.display();
   }
