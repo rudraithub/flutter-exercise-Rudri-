@@ -57,14 +57,18 @@ void main(){
   print(s);
   print('');
 
-  //10.
-  print('-----------------------------------------------------------------------------------------------------');
-  for(var i=s[{'name'}]; i<=s[{'course'}];i++)
+  //10.FIND JAVA COURSE IS AVAILABLE OR NOT.
+  print("10. FINDING JAVA COURSE IS AVAILABLE OR NOT");
+  List <dynamic> li = s['course'];
+  for(var i in li)
   {
-    if (s=={'course':'Java'})
-  {
-    print("Available");
+    if (i=='Java')
+    {
+      print("JAVA is Available");
+    }
+    
   }
-}
+  
+  
 }
   

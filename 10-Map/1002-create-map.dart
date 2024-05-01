@@ -55,5 +55,16 @@ void main() {
   n.addAll({'student name':'xyz','student city':'surat'});
   print(n);
   print('');
+
+  //10. CHECK IN MAP 'SCIENCE' IS  AVAILABLE.
+  print("10. CHECK WHEATHER SCIENCE IS AVAILABLE ");
+  List <dynamic> l = n['course'];
+  for (var i in l)
+  {
+    if (i=='science')
+    {
+      print("Science is Available");
+    }
+  }
   
 }

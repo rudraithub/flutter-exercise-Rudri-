@@ -54,4 +54,15 @@ void main(){
   print(p);
   print('');
 
+  //10. CHECK RADIOLOGY AVAILABLE .
+  print("10. CHECK WHEATHER RADIOLOGY AVAILABLE OR NOT");
+  List <dynamic> l = p['department'];
+  for(var i in l)
+  {
+    if(i=='radiology')
+    {
+      print("Radiology is Available");
+    }
+  }
+
 }
