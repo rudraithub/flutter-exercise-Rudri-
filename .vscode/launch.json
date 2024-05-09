@@ -1,0 +1,68 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "text_1",
+            "cwd": "20-text/text_1",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "text_1 (profile mode)",
+            "cwd": "20-text/text_1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "text_1 (release mode)",
+            "cwd": "20-text/text_1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "text_2",
+            "cwd": "20-text/text_2",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "text_2 (profile mode)",
+            "cwd": "20-text/text_2",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "text_2 (release mode)",
+            "cwd": "20-text/text_2",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "text_3",
+            "cwd": "20-text/text_3",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "text_3 (profile mode)",
+            "cwd": "20-text/text_3",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "text_3 (release mode)",
+            "cwd": "20-text/text_3",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
