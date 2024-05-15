@@ -11,7 +11,7 @@ void main() {
             children: [
               SizedBox(width: 10,),
               Container(
-                height: 1000,
+                height: 647,
                 width: 100,
                 
                 decoration: BoxDecoration(
@@ -20,7 +20,7 @@ void main() {
               ),
               SizedBox(width:10,),
               Container(
-                height: 980,
+                height: 647,
                 width: 100,
                 
                 decoration: BoxDecoration(
