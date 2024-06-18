@@ -10,7 +10,7 @@ void main() {
           child: Column(
             children: [
               Container(
-                height: 150,
+                height: 250,
                 width: 500,
                 color: Colors.amberAccent,
               ),
@@ -23,7 +23,7 @@ void main() {
                     width: 10,     
                 ),
                   Container(
-                    height: 80,
+                    height: 100,
                     width: 170,
                     color: Color.fromARGB(255, 177, 231, 50),
                   ),
@@ -31,7 +31,7 @@ void main() {
                     width: 10,     
                 ),
                 Container(
-                  height: 80,
+                  height: 100,
                   width: 175,
                   color: Color.fromARGB(255, 152, 76, 139),
                 ),
@@ -49,7 +49,7 @@ void main() {
                 width: 10,
               ),
                   Container(
-                    height: 300,
+                    height: 400,
                     width: 100,
                     color: Color.fromARGB(255, 119, 167, 234),
                   ),
@@ -57,7 +57,7 @@ void main() {
                     width: 10,
                   ),
                   Container(
-                    height:300 ,
+                    height:400 ,
                     width: 100,
                     color: Color.fromARGB(255, 245, 97, 225),
                   ),
@@ -70,7 +70,7 @@ void main() {
                       //   height: 10,
                       // ),
                       Container(
-                        height: 150,
+                        height: 210,
                         width: 135,
                         color: Color.fromARGB(255, 243, 167, 68),
                       ),
@@ -78,7 +78,7 @@ void main() {
                         height: 10,
                       ),
                       Container(
-                        height: 135,
+                        height: 180,
                         width: 135,
                         color: const Color.fromARGB(255, 187, 96, 126),
                       ),
