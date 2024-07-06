@@ -23,7 +23,7 @@ class Demo extends StatefulWidget {
 }
 
 class _DemoState extends State<Demo> {
-  bool check = false;
+  bool check = true;
   bool chec = false;
   bool che = false;
   bool ch = false;
