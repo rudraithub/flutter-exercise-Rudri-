@@ -56,6 +56,19 @@ class _AbcState extends State<Abc> {
           ),
         ]),
       ),
+      body: TabBarView(children: [
+        Tab(
+          icon: Icon(Icons.home,size: 30,),
+        ),
+
+        Tab(
+          icon: Icon(Icons.feedback,size: 30,),
+        ),
+
+        Tab(
+          icon: Icon(Icons.exit_to_app,size: 30,),
+        ),
+      ]),
     ),
     );
   }
